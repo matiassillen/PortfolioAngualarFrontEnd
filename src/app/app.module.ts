@@ -6,13 +6,15 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import {HttpClientModule } from '@angular/common/http';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     AcercaDeComponent,
-    EducacionComponent
+    EducacionComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
