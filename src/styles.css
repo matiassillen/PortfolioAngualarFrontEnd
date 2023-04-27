@@ -85,19 +85,6 @@ div#profile-background img {
     margin-top: 20px;
 }
 
-div#info-actions {
-    display: flex;
-    margin-bottom: 10px;
-} 
-
-#button1, #button2, #button3 {
-    margin-top: 20px;
-}
-
-#button2, #button3 {
-    margin-left: 10px;
-}
-
 #pen1 {
     margin-top: -30px;
     margin-left: 180px;
