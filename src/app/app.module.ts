@@ -8,6 +8,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import {HttpClientModule } from '@angular/common/http';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { HYSSkillsComponent } from './componentes/h-y-s-skills/h-y-s-skills.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HYSSkillsComponent } from './componentes/h-y-s-skills/h-y-s-skills.comp
     AcercaDeComponent,
     EducacionComponent,
     ExperienciaComponent,
-    HYSSkillsComponent
+    HYSSkillsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
