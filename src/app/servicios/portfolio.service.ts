@@ -9,7 +9,7 @@ export class PortfolioService {
 
   constructor(private http:HttpClient) { }
 
-  obtenerDatos() {
-    console.log("El servicio Portfolio está corriendo");
+  obtenerDatos():Observable<any> {
+    return this.http.get("json");
   }
 }
