@@ -8,6 +8,7 @@ import {HttpClientModule } from '@angular/common/http';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { HYSSkillsComponent } from './componentes/h-y-s-skills/h-y-s-skills.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { ArgProLogoComponent } from './componentes/arg-pro-logo/arg-pro-logo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './componentes/header/header.component';
     EducacionComponent,
     ExperienciaComponent,
     HYSSkillsComponent,
-    HeaderComponent
+    HeaderComponent,
+    ArgProLogoComponent
   ],
   imports: [
     BrowserModule,
