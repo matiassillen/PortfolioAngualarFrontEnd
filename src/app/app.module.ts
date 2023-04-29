@@ -9,6 +9,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { HYSSkillsComponent } from './componentes/h-y-s-skills/h-y-s-skills.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { ArgProLogoComponent } from './componentes/arg-pro-logo/arg-pro-logo.component';
+import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ArgProLogoComponent } from './componentes/arg-pro-logo/arg-pro-logo.com
     ExperienciaComponent,
     HYSSkillsComponent,
     HeaderComponent,
-    ArgProLogoComponent
+    ArgProLogoComponent,
+    RedesSocialesComponent
   ],
   imports: [
     BrowserModule,
