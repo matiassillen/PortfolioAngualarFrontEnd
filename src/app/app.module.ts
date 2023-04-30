@@ -11,6 +11,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { ArgProLogoComponent } from './componentes/arg-pro-logo/arg-pro-logo.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginComponent } from './componentes/login/login.component';
     HeaderComponent,
     ArgProLogoComponent,
     RedesSocialesComponent,
-    LoginComponent
+    LoginComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
