@@ -5,4 +5,11 @@ div {
 app-redes-sociales {
     float: right;
     margin-top: 25px;
+    margin-right: 10px;
+}
+
+app-login {
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
 }
