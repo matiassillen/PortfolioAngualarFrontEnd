@@ -10,6 +10,7 @@ import { HYSSkillsComponent } from './componentes/h-y-s-skills/h-y-s-skills.comp
 import { HeaderComponent } from './componentes/header/header.component';
 import { ArgProLogoComponent } from './componentes/arg-pro-logo/arg-pro-logo.component';
 import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RedesSocialesComponent } from './componentes/redes-sociales/redes-socia
     HYSSkillsComponent,
     HeaderComponent,
     ArgProLogoComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
