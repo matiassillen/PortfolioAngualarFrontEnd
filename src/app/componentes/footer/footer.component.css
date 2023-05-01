@@ -1,0 +1,11 @@
+.row {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.p-1, .p-2 {
+    background-color:  #0d6efd;
+    display: inline-block;
+    border-radius: 16px;
+}
+
