@@ -13,6 +13,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     RedesSocialesComponent,
     LoginComponent,
     BannerComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
