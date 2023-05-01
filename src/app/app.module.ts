@@ -12,6 +12,7 @@ import { RedesSocialesComponent } from './componentes/redes-sociales/redes-socia
 import { LoginComponent } from './componentes/login/login.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ArgProLogoComponent,
     RedesSocialesComponent,
     LoginComponent,
-    BannerComponent
+    BannerComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
