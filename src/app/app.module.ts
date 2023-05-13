@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './componentes/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { interceptorProvider } from './service/interceptor-service';
     BannerComponent,
     ProyectosComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent
   ],
   imports: [
     BrowserModule,
