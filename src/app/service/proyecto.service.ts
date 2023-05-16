@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProyectoService {
-  expURL = 'http://localhost:8080/proyec/';
+  expURL = 'https://backend-srm.onrender.com/proyec/';
   
   constructor(private httpClient: HttpClient) { }
 

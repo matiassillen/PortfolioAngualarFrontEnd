@@ -9,31 +9,30 @@
   <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
       <circle-progress 
       [percent]="(skill.porcentaje)" 
-      [radius]="90" [imageSrc]="''" 
+      [radius]="80"
       [title]="(skill.nombre)"
-      [titleColor]="'#212F3C'"
+      [titleColor]="'#0d6efd'"
+      [titleFontSize]="'20px'"
       [showTitle]="true" 
-      [showImage]="false" 
-      [imageHeight]="70" 
-      [imageWidth]="70" 
+      [showImage]="false"  
       [showUnits]="false"
       [showSubtitle]="false" 
-      [outerStrokeWidth]="16" 
-      [innerStrokeWidth]="2" 
-      [outerStrokeColor]="'#78C000'"
-      [innerStrokeColor]="'#C7E596'" 
+      [outerStrokeWidth]="8" 
+      [innerStrokeWidth]="3" 
+      [outerStrokeColor]="'#0d6efd'"
+      [innerStrokeColor]="'#0d6efd'" 
       [animation]="true" 
-      [animationDuration]="600">
+      [animationDuration]="700">
       </circle-progress>
 
       <div>
           <td *ngIf="isLogged">
-              <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
-                  <i class="bi bi-pencil-fill"></i></button>
+              <button id="editar" class="btn btn-success" routerLink="/editskill/{{skill.id}}">
+                <i class="fa fa-pen"></i></button>
           </td>
           <td *ngIf="isLogged">
-              <button class="btn btn-danger" (click)="delete(skill.id)">
-                  <i class="bi bi-trash-fill"></i></button>
+              <button id="borrar" class="btn btn-danger" (click)="delete(skill.id)">
+                <i class="fa fa-solid fa-trash"></i></button>
           </td>
       </div>
       

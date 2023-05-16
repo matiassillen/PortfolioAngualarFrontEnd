@@ -1,7 +1,7 @@
 <div class="container" *ngIf="pro">
     <div class="row">
         <div>
-            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" routerLink="/editproyecto/">
                 <div class="form-group">
                     <label for="nombreP">Nombre del proyecto</label>
                     <input type="text" class="form-control" id="nombreP" name="nombreP" [(ngModel)]="pro.nombreP" required>

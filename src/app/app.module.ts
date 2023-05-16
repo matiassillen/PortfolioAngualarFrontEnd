@@ -26,6 +26,7 @@ import { EditskillComponent } from './componentes/h-y-s-skills/editskill.compone
 import { NewskillComponent } from './componentes/h-y-s-skills/newskill.component';
 import { NewProyectoComponent } from './componentes/proyectos/new-proyecto.component';
 import { EditProyectoComponent } from './componentes/proyectos/edit-proyecto.component';
+import { EditAcercaDeComponent } from './componentes/acerca-de/edit-acerca-de.component';
 
 
 
@@ -52,6 +53,7 @@ import { EditProyectoComponent } from './componentes/proyectos/edit-proyecto.com
     NewskillComponent,
     NewProyectoComponent,
     EditProyectoComponent,
+    EditAcercaDeComponent,
 
   ],
   imports: [

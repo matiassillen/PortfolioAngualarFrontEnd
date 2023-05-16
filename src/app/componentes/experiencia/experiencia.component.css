@@ -1,5 +1,9 @@
 .row {
+    background-color: rgb(21, 21, 66);
+    color: white;
     padding: 20px;
+    margin: 0;
+
 }
 
 h1, h3 {
@@ -8,4 +12,15 @@ h1, h3 {
 
 table  {
     color: white;
+}
+
+#editar {
+    background-color: rgb(29, 192, 29);
+    border-color: rgb(29, 192, 29);
+    border-radius: 100%;
+}
+
+
+#borrar {
+    border-radius: 100%;
 }

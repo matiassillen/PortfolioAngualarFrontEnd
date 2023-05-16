@@ -15,12 +15,12 @@
                     </td>
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
-                            <i class="fa fa-pen"></i> EDITAR</button>
+                        <button id="editar" class="btn btn-success" routerLink="/editedu/{{Educacion.id}}">
+                            <i class="fa fa-pen"></i></button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-danger" (click)="delete(Educacion.id)">
-                            <i class="fa fa-solid fa-trash"></i> BORRAR</button>
+                        <button id="borrar" class="btn btn-danger" (click)="delete(Educacion.id)">
+                            <i class="fa fa-solid fa-trash"></i></button>
                     </td>
                 </tr>
             </tbody>

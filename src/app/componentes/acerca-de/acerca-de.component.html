@@ -1,17 +1,20 @@
+<div>
+    <button type="button" class="btn btn-dark" routerLink="/editacercade/4" *ngIf="isLogged">
+        Editar persona
+    </button>
+</div>
 <div class="row">
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img id="foto-perfil" src="../../../assets/images/perfil.jpeg" alt="Imagen de perfil" class="img-fluid">
+        <img id="foto-perfil" src="{{persona.img}}" alt="Imagen de perfil" class="img-fluid">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id = "nombre">{{persona.nombre}} {{persona.apellido}}</p>
         <p>Full Stack Developer Jr</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripccion">
         <span>  
             <h1>Acerca de mí</h1>
-            <p>Estudiante de la carrera Licenciatura en Sistemas en la facultdad de ciencias de la administración (UNER) en Concordia, Entre Ríos (Argentina).
-            Me gusta el desarrollo web, el automovilismo, en especial la formula 1, escuchar musica, ver peliculas, andar en bicicleta, etc.
-            </p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 </div>

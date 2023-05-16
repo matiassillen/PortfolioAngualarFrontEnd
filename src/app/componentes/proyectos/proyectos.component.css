@@ -1,5 +1,8 @@
 .row {
+    background-color: rgb(21, 21, 66);
+    color: white;
     padding: 20px;
+    margin: 0;
 }
 
 .contenedor { 
