@@ -1,35 +1,21 @@
 <div class="row">
     <h1>Proyectos</h1>
-    <div class="contenedor">
-        <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte-2">
-
-        </div>
-    </div>
-    <div class="col-lg-2">
-        <button type="button" class="btn btn-dark" routerLink="/newproyecto" *ngIf="isLogged">
-            Nuevo Proyecto
+    <div id="boton">
+        <button id="agregar" type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            <i class="fa fa-solid fa-plus fa-fade"></i>
         </button>
-    </div>
+    </div >
 
-    <div class="col lg 1"></div>
-    <div class="col-lg-11">
-        <table class="table">
-            <tbody>
-                <tr *ngFor="let Proyecto of proyec">
-                    <td>
-                        <h2>{{Proyecto.nombreP}}</h2>
-                    </td>
-                    <td>{{Proyecto.descripcionP}}</td>
-                    <td *ngIf="isLogged">
-                        <button class="btn btn-light" routerLink="/editproyecto/{{Proyecto.id}}">
-                            <i class="fa fa-pen"></i> EDITAR</button>
-                    </td>
-                    <td *ngIf="isLogged">
-                        <button class="btn btn-danger" (click)="delete(Proyecto.id)">
-                            <i class="fa fa-solid fa-trash"></i> BORRAR</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div *ngFor="let Proyecto of proyec">
+        <h2>{{Proyecto.nombreP}}</h2>
+        <p>{{Proyecto.descripcionP}}</p>
+        <div *ngIf="isLogged">
+            <button id="editar" class="btn btn-success" routerLink="/editproyecto/{{Proyecto.id}}">
+                <i class="fa fa-pen"></i></button>
+        </div>
+        <div *ngIf="isLogged">
+            <button id="borrar" class="btn btn-danger" (click)="delete(Proyecto.id)">
+            <i class="fa fa-solid fa-trash"></i></button>
+        </div>
     </div>
 </div>

@@ -2,7 +2,7 @@
 
   <h1>Hard & Soft skills</h1>
   <div class="button">
-      <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
+      <button id="agregar" type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged"><i class="fa fa-solid fa-plus fa-fade"></i></button>
   </div>
 
 
@@ -12,7 +12,7 @@
       [radius]="80"
       [title]="(skill.nombre)"
       [titleColor]="'#0d6efd'"
-      [titleFontSize]="'20px'"
+      [titleFontSize]="'15px'"
       [showTitle]="true" 
       [showImage]="false"  
       [showUnits]="false"

@@ -9,14 +9,21 @@ h1, h3 {
     display: inline;
 }
 
-table {
-    color:white;
+#boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#agregar {
+    border-radius: 100%;
+    background-color: darkcyan;
 }
 
 #editar {
     background-color: rgb(29, 192, 29);
     border-color: rgb(29, 192, 29);
     border-radius: 100%;
+    margin-bottom: 5px;
 }
 
 

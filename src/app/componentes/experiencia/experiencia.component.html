@@ -1,32 +1,21 @@
 <div class="row">
     <h1>Experiencia laboral</h1>
-    <div class="col-lg-2">
-        <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
-            Nueva Experiencia
+    <div id="boton">
+        <button id="agregar" type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            <i class="fa fa-solid fa-plus fa-fade"></i>
         </button>
-    </div>
+    </div >
 
-    <div class="col lg 1"></div>
-    <div class="col-lg-11">
-        <table class="table">
-            <tbody>
-                <tr *ngFor="let Experiencia of expe">
-                    <td>
-                        <h2>{{Experiencia.nombreE}}</h2>
-                    </td>
-                    <td>{{Experiencia.descripcionE}}</td>
-                    <td *ngIf="isLogged">
-                        <button id="editar" class="btn btn-success" routerLink="/editexp/{{Experiencia.id}}">
-                            <i class="fa fa-pen"></i></button>
-                    </td>
-                    <td *ngIf="isLogged">
-                        <button id="borrar" class="btn btn-danger" (click)="delete(Experiencia.id)">
-                            <i class="fa fa-solid fa-trash"></i></button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div *ngFor="let Experiencia of expe">
+        <h2>{{Experiencia.nombreE}}</h2>
+        <p>{{Experiencia.descripcionE}}</p>
+        <div *ngIf="isLogged">
+            <button id="editar" class="btn btn-success" routerLink="/editexp/{{Experiencia.id}}">
+                <i class="fa fa-pen"></i></button>
+        </div>
+        <div *ngIf="isLogged">
+            <button id="borrar" class="btn btn-danger" (click)="delete(Experiencia.id)">
+            <i class="fa fa-solid fa-trash"></i></button>
+        </div>
     </div>
-
 </div>
-<div class="body2"></div>

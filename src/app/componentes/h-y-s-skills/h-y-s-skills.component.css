@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+#agregar {
+    border-radius: 100%;
+    background-color: darkcyan;
+}
+
 #editar {
     background-color: rgb(29, 192, 29);
     border-color: rgb(29, 192, 29);

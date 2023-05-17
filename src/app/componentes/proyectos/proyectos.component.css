@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+table {
+    color: white;
+}
+
 .contenedor { 
     width: auto;
 }
@@ -12,4 +16,20 @@
 .parte-1, .parte-2 {
     display: inline-block;
     text-align: justify;
+}
+
+#agregar {
+    border-radius: 100%;
+    background-color: darkcyan;
+}
+
+#editar {
+    background-color: rgb(29, 192, 29);
+    border-color: rgb(29, 192, 29);
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+#borrar {
+    border-radius: 100%;
 }
